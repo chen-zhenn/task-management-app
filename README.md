@@ -4,7 +4,7 @@
 App para gerenciamento de tarefas...
 
 <div align="center">
-    <img src="code/front-end/src/assets/preview-v1.0.png">
+    <img src="docs/preview-v1.0.png">
 </div>
 
 ## :factory: Recursos
@@ -36,3 +36,11 @@ __Detalhes__: :point_right: [ veja aqui ](code/front-end)
     * :open_file_folder: front-end/
         * ...
 * :file_folder: docs
+
+## :clock330: Gerenciamento
+
+Gerenciamento e evolução do projeto se dá via [issues](https://github.com/chen-zhenn/task-management-app/issues) organizado com sistema de **Kanban** pelo [project](https://github.com/users/chen-zhenn/projects/7) do Github. 
+
+<div align="center">
+    <img src="docs/scrum-app-task-management.png">
+</div>
