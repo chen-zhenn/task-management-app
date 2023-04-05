@@ -27,7 +27,7 @@ App para gerenciamento de tarefas...
 * Angular 2
 * Sass
 
-
+__Detalhes__: :point_right: [ veja aqui ](code/front-end)
 ## :file_folder: Estrutura
 
 * :file_folder: code
