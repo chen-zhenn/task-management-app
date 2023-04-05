@@ -1,27 +1,23 @@
-# HelloWord
+# Angular Front-end
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+## :file_folder: Estrutura
 
-## Development server
+* :file_folder: app
+    * :open_file_folder: components
+    * :open_file_folder: pages
+    * :open_file_folder: services
+    * :open_file_folder: style
+    * :open_file_folder: assets
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+> __Componentes__: Arquitetura de componentes pode ser repensado para atender requisitos de domínio e casos de uso, contudo os componentes contém um alto nível de granularidade, o que já é interessante para atender requisitos de desacoplamento e reuso.
 
-## Code scaffolding
+> __Visual/Design__: Arquitetura de CSS mescla um pouco da abordagem ITCSS, para permitir maior eficiência e escalabilidade sustentável no que tange a escopo de Design como: Cores, fontes, espaçamentos. Permitindo facilmente a manutenção nesse quesito.    
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+...
+## :electric_plug: Instalação
 
-## Build
+...
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## :video_game: Como usar
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+...
