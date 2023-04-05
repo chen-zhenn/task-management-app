@@ -9,12 +9,12 @@ App para gerenciamento de tarefas...
 
 ## :factory: Recursos
 
-* Login/cadastro
-* Acesso offline
-* Gerenciamento de tarefas
-* Lista personalizadas
-* Lembretes e notificação
-* Personalização - tema
+* [ ] Login/cadastro
+* [ ] Acesso offline
+* [ ] Gerenciamento de tarefas
+* [ ] Lista personalizadas
+* [ ] Lembretes e notificação
+* [ ] Personalização - tema
 
 ## :wrench: Tecnologias
 
