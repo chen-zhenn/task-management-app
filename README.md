@@ -4,7 +4,7 @@
 App para gerenciamento de tarefas...
 
 <div align="center">
-    <img src="front-end/src/assets/preview.1.0.png">
+    <img src="code/front-end/src/assets/preview.1.0.png">
 </div>
 
 ## :factory: Recursos
