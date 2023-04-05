@@ -1,0 +1,26 @@
+.header
+    position: relative
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    padding-top: .75rem
+    padding-bottom: .75rem
+    &-section
+        padding-right: .75rem
+        padding-left: .75rem
+        &.-brand,
+        &.-profile
+            height: inherit
+        &.-brand
+            display: flex
+            align-items: center
+        &.-search
+            flex-grow: 1
+            order: 4
+            @media(min-width: 768px)
+                order: initial
+                padding-right: 12.5rem
+                padding-left: 12.5rem
+        &.-profile
+            height: 50px
+            margin-left: auto

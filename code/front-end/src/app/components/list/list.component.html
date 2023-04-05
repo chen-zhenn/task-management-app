@@ -1,0 +1,43 @@
+<article class="list">
+    <header class="list-header  header">
+        <section class="header-section -heading">
+            <h3 class="heading -h3">Estudos de Angular</h3>
+        </section>
+        <section class="header-section -action">
+            <div (click)="add()" class="btn -add">
+                <span><fa-icon [icon]="icons.add"></fa-icon></span>
+                <span>Adicionar tarefa</span>
+            </div>
+        </section>
+    </header>
+    <table class="list-table  table">
+        <thead class="table-head">
+            <tr class="table-head__row">
+                <th class="table-head__column -status">Status</th>
+                <th class="table-head__column -title">Título</th>
+                <th class="table-head__column -title">Label</th>
+                <th class="table-head__column -edit">Editar</th>
+                <th class="table-head__column -delete">Deletar</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <tr class="table-body__row" *ngFor="let task of tasks">
+                <td class="table-body__column -status">{{ task.done ? 'Feito' : 'Pendente' }}</td>
+                <td class="table-body__column -title">{{ task.name }}</td>
+                <td class="table-body__column -title">{{ getLabelName(task.label) }}</td>
+                <td class="table-body__column -btn">
+                    <span class="btn -edit">
+                        <fa-icon [icon]="icons.edit"></fa-icon>
+                    </span>
+                </td>
+                <td class="table-body__column -btn">
+                    <span class="btn -delete">
+                        <fa-icon [icon]="icons.delete"></fa-icon>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</article>
+
+

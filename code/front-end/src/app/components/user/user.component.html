@@ -1,0 +1,9 @@
+<div class="user" *ngIf="user">
+    <section class="user-section -avatar">
+        <app-avatar [source]="user.image"></app-avatar>
+    </section>
+    <section class="user-section -data">
+        <span class="user-name">{{ user.name  }}</span>
+        <span class="user-email">{{ user.email }}</span>
+    </section>
+</div>

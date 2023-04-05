@@ -1,0 +1,7 @@
+<div class="bl-wrap">
+    <app-header class="bl-header" (visibility)="visibilityHandler($event)"></app-header>
+    <app-side-bar class="bl-sidebar" [ngClass]="visible ? 'show' : 'hide'"></app-side-bar>
+    <main class="bl-main">
+        <app-list></app-list>
+    </main>
+</div>

@@ -1,0 +1,34 @@
+@import ../../../style/tools
+.list
+    &-table
+        font-size: 1.5rem
+    .heading
+        margin: 0
+
+.header
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    &-section
+        &.-searching
+            flex-grow: 1
+        &.-action
+            min-width: 133px 
+
+.table
+    &-head,
+    &-body
+        &__row
+            height: 7.5rem
+        &__column
+            text-align: center
+            &.-title
+                text-align: left
+    &-head
+        font-weight: bold
+    &-body
+        &__column
+            &.-btn
+                width: 5%
+                padding-right: 1.5rem

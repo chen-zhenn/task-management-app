@@ -1,0 +1,60 @@
+@import ../../../style/tools
+$gap-horizontal: 1rem
+$gap-vertical: 1.5rem
+.profile
+    position: relative
+    height: 50px
+    &-section
+        &.-avatar
+            cursor: pointer
+        &.-menu
+            position: absolute
+            right: 0
+            bottom: 0
+            width: 250px
+            padding: $gap-horizontal $gap-horizontal 0 $gap-horizontal
+            transform: translate3d(0, 100%, 0)
+
+.menu
+    &-section,
+    .nav-item
+        position: relative
+        &:after
+            content: ""
+            position: absolute
+            display: block
+            bottom: 0
+            left: 0
+            width: calc( 100% + $gap-horizontal * 2 )
+            height: .01rem
+            transform: translate3d(-10px, 0, 0)
+        &:last-child
+            &::after
+                opacity: 0
+    &-section
+        &.-user
+            padding-bottom: $gap-vertical
+    &-list
+        display: flex
+        flex-flow: column
+        margin: unset
+        padding: unset
+        list-style-type: none
+    &:after
+        @include arrow
+        content: ""
+        position: absolute
+        display: block
+        top: 0
+        right: 5%
+        transform: translate3d(0, -90%, 0)
+    
+.nav
+    &-item
+        position: relative
+        padding-top: $gap-vertical
+        padding-bottom: $gap-vertical
+        cursor: pointer
+
+.icon
+    margin-right: .5rem

@@ -1,0 +1,22 @@
+$bar-height: 120px
+@media(min-width: 768px)
+    .bl
+        &-side
+            width: 100%
+            height: initial
+            transform: translate3d(0, -100%, 0)
+
+@media(min-width: 990px)
+    .bl
+        &-wrap
+            flex-flow: wrap
+        &-header
+            height: initial
+        &-sidebar
+            position: initial
+            width: 20%
+            transform: translate3d(0, 0, 0)
+            &.hide
+                transform: translate3d(-100%, 0, 0)
+            &.show
+                transform: translate3d(0, 0, 0)

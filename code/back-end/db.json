@@ -1,0 +1,101 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "date": "2023-03-31",
+      "project": 1,
+      "label": 2,
+      "name": "Estudar os conceitos/pilares do Angular 2",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 2,
+      "date": "2023-03-31",
+      "project": 1,
+      "label": 2,
+      "name": "Estudar as principais features do Angular 2",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 3,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Pensar e montar a modelagem básica de dados",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 4,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Pensar e montar a arquitetura básica de componentes",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 5,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Pensar e montar o design/look-and-feel dos componentes",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 6,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Pensar e montar o design/look-and-feel das paginas",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 7,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Montar uma Fake API com mock",
+      "done": false,
+      "delete": false
+    },
+    {
+      "id": 8,
+      "date": "2023-03-31",
+      "project": 2,
+      "label": 3,
+      "name": "Fazer integração básica de dados no front-end",
+      "done": false,
+      "delete": false
+    }
+  ],
+  "projects": [{
+    "id": 1,
+    "name": "Estudos de Angular 2",
+    "delete": false
+  }, {
+    "id": 2,
+    "name": "Desenvolver uma aplicação em Angular 2",
+    "delete": false
+  }],
+  "labels": [{
+    "id": 1,
+    "name": "rotina"
+  }, {
+    "id": 2,
+    "name": "estudo"    
+  },{
+    "id": 3,
+    "name": "projeto" 
+  }],
+  "user": {
+    "id": 1,
+    "name": "dev",
+    "email": "teste@teste.com",
+    "image": "https://avatars.githubusercontent.com/u/26093480?v=4" 
+  }
+}

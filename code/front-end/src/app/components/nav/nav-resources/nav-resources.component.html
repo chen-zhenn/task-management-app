@@ -1,0 +1,56 @@
+<nav class="resource-nav">
+    <ul class="resource-list  nav-list">
+        <li class="resource-item  nav-item">
+            <h4 class="resource-heading  heading -h4">
+                <span>
+                    <fa-icon [icon]="icons.task"></fa-icon>
+                </span>
+                <span>Tarefas</span>
+            </h4>
+            <ul class="resource-list -task  nav-list">
+                <li class="resource-item  nav-item">
+                    <span>Hoje</span>
+                    <span>0</span>
+                </li>
+                <li class="resource-item  nav-item">
+                    <span>Pendente</span>
+                    <span>0</span>
+                </li>
+                <li class="resource-item  nav-item">
+                    <span>Concluida</span>
+                    <span>0</span>
+                </li>
+            </ul> 
+        </li>
+        <li class="resource-item  nav-item">
+            <h4 class="resource-heading  heading -h4">
+                <span>
+                    <fa-icon [icon]="icons.project"></fa-icon>
+                </span>
+                <span>
+                    Projetos
+                </span>
+            </h4>
+            <ul class="resource-list -project  nav-list">
+                <li 
+                    class="resource-item  nav-item" 
+                    *ngFor="let project of projects">{{ project.name }}</li>
+            </ul>
+        </li>
+        <li class="resource-item  nav-item">
+            <h4 class="resource-heading  heading -h4">
+                <span>
+                    <fa-icon [icon]="icons.label"></fa-icon>
+                </span>
+                <span>
+                    Etiquetas
+                </span>
+            </h4>
+            <ul class="resource-list -label  nav-list">
+                <li 
+                    class="resource-item  nav-item" 
+                    *ngFor="let label of labels">{{ label.name }}</li>
+            </ul>
+        </li>
+    </ul>
+</nav>

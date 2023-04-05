@@ -1,0 +1,64 @@
+// Elements(Selector HTML tags)
+body
+    color: $color-surface
+    background-color: $color-bg
+
+input[type="text"]
+    border-color: rgba($color-surface, .5)
+    &:focus
+        border-color: $color-featured-secondary
+
+::-webkit-input-placeholder
+    color: rgba($color-surface, .5)
+:-moz-placeholder
+    color: rgba($color-surface, .5)
+:-ms-input-placeholder
+    color: rgba($color-surface, .5)
+::placeholder
+    color: rgba($color-surface, .5)
+
+// Layout Blocks
+.bl
+    &-header
+        color: $color-light
+        background-color: $color-featured-primary
+    &-sidebar
+        background-color: $color-light
+
+// Components
+.burger
+    &-item,
+    &:before,
+    &:after
+        background-color: $color-light
+
+.btn
+    @extend %btn
+    color: $color-light
+    background-color: $color-featured-secondary
+    &.-edit
+        background-color: $color-featured-thirdy
+    &.-delete
+        background-color: $color-featured-primary
+
+.search
+    &-input
+        color: $color-surface
+
+.profile
+    &-section
+        &.-menu
+            @include box-shadow($color-bg-dark, true)
+            color: $color-surface
+            background-color: $color-light
+    .menu
+        &-section,
+        .nav-item
+            &:after
+                background-color: rgba($color-surface, .25)
+
+.table
+    &-body
+        &__row
+            border-bottom: solid 1rem $color-bg
+            background-color: $color-light

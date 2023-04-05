@@ -1,0 +1,32 @@
+<div class="profile">
+    <section class="profile-section -avatar  avatar" *ngIf="user" (click)="visible = !visible">
+        <app-avatar [source]="user.image" ></app-avatar>
+    </section>
+    <section class="profile-section -menu  menu" *ngIf="visible">
+        <section class="menu-section -user">
+            <app-user [user]="user"></app-user>
+        </section>
+        <section class="menu-section -action  action">
+            <nav class="menu-nav  nav">
+                <ul class="menu-list  nav-list">
+                    <li class="nav-item">
+                        <span class="action-logout  icon">
+                            <fa-icon [icon]="icons.theme"></fa-icon>
+                        </span>
+                        <span class="action-logout">
+                            Mudar Tema
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <span class="action-logout  icon">
+                            <fa-icon [icon]="icons.logout"></fa-icon>
+                        </span>
+                        <span class="action-logout">
+                            Sair
+                        </span>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </section>
+</div>
